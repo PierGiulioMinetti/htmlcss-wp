@@ -8,6 +8,13 @@ body{
     padding: 30px;
   background-image: url('../img/natural-pattern.png');
 }
+h2,
+a,
+li,
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER */
 header{
     text-align: center;
@@ -60,6 +67,7 @@ main section{
     background-color: white;
     width: 50%;
     float: left;
+    border-radius: 10px;
 }
 main section h2{
     margin: 30px;
@@ -93,24 +101,29 @@ main aside div p{
     color: rgb(26, 206, 26);
     padding: 10px;
     font-size: 20px;
-
 }
 main aside{
     width: 22%;
     float: left;
-
+    border-radius: 10px;
 }
 .left{
     margin-right:3%;
     background-color: white;
 }
-
+/* RIGHT */
 .right{
     margin-left:3%;
+
 }
 .top-div{
     margin-bottom: 20px;
     background-color: white;
+    border-radius: 10px;
+}
+.top-div p{
+    color: black;
+
 }
 aside .right .container .top-div{
     text-align: center;
@@ -129,6 +142,8 @@ aside .right .container .top-div{
 footer{
     background-color: white;
     height: 100px;
+    border-radius: 15px;
+    padding: 0 3px;
 }
 footer .footer-container .footer-text{
     text-align: center;
@@ -143,7 +158,7 @@ footer .footer-container .footer-text{
     background-color: white;
     float: left;
     width: calc(100% / 3);
-    height: 80px;
+    height: 50px;
     text-align: center;
     padding-top: 20px;
     font-size: 30px;
