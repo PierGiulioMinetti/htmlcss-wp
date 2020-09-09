@@ -58,12 +58,17 @@ main::after{
   clear: both;
 }
 main section{
-    background-color: fuchsia;
+    background-color: white;
     width: 50%;
     height: 500px;
     float: left;
 }
-
+main section h2{
+    margin: 30px;
+}
+main section p{
+    padding: 20px;
+}
 /* ASIDE */
 /* LEFT ASIDE */
 .clear-fix::after{
