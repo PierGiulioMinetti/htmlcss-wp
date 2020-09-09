@@ -46,9 +46,6 @@ header div h2{
 .header-bar ul li a:hover{
     background-color: orange;
 }
-
-
-
 /* MAIN */
 main{
     height: 500px;
@@ -67,15 +64,42 @@ main section{
 }
 
 /* ASIDE */
+/* LEFT ASIDE */
+.clear-fix::after{
+display: table;
+content: '';
+clear: both;
+}
+main aside .clear-fix div{
+    float: left;
+margin: 15px;
+}
+.fas.fa-rss-square{
+    font-size: 40px;
+    background-color: white;
+    color: orange;
+}
+main aside .clear-fix h2{
+    font-size: 40px;
+    text-align: center;
+    padding-right: 40px;
+    line-height: 40px;
+}
+main aside div p{
+    color: rgb(26, 206, 26);
+    padding: 10px;
+    font-size: 15px;
+}
 main aside{
-    height: 200px;
     width: 22%;
     float: left;
+    padding: 10px;
 }
 .left{
     margin-right:3%;
-    background-color: deeppink;
+    background-color: white;
 }
+
 .right{
     margin-left:3%;
     height: 100%;
