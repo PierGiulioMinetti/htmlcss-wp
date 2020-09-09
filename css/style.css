@@ -22,6 +22,7 @@ header .img-header{
   background-size: cover;
 }
 header div img {
+    padding-top:30px;
     width: 30%;
 }
 header div h2{
@@ -35,11 +36,14 @@ header div h2{
 .header-bar ul li{
     display: inline-block;
     text-align: center;
-    padding: 13px 15px 0;
-    line height: 50px;
+    padding: 0 20px;
 }
 .header-bar ul li a{
     text-decoration: none;
+    line-height: 50px;
+}
+.header-bar ul li a:hover{
+    background-color: orange;
 }
 
 
