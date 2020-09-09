@@ -121,9 +121,31 @@ aside .right .container .top-div{
     height: 240px;
     background-color: white;
 }
+.top-div h2{
+    padding:10px;
+}
 
 /* FOOTER */
 footer{
-    background-color: gold;
+    background-color: white;
     height: 100px;
+}
+footer .footer-container .footer-text{
+    text-align: center;
+    color: grey;
+}
+.footer-container::after{
+    display: table;
+    content:'';
+    clear: both;
+}
+.boxes{
+    background-color: white;
+    float: left;
+    width: calc(100% / 3);
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: grey;
 }
