@@ -42,6 +42,7 @@ header div h2{
     text-decoration: none;
     line-height: 50px;
     padding: 16px;
+    color: white;
 }
 .header-bar ul li a:hover{
     background-color: orange;
@@ -88,7 +89,8 @@ main aside .clear-fix h2{
 main aside div p{
     color: rgb(26, 206, 26);
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
+
 }
 main aside{
     width: 22%;
