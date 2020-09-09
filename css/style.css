@@ -1,0 +1,62 @@
+/* general styling */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+}
+
+/* HEADER */
+header{
+    background-color: cornflowerblue;
+    height: 100px;
+    margin-bottom: 20px;
+}
+/* MAIN */
+main{
+    height: 500px;
+    margin-bottom: 20px;
+}
+main::after{
+  display: table;
+  content: '';
+  clear: both;
+}
+main section{
+    background-color: fuchsia;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+/* ASIDE */
+main aside{
+    height: 200px;
+    width: 22%;
+    float: left;
+}
+.left{
+    margin-right:3%;
+    background-color: deeppink;
+}
+.right{
+    margin-left:3%;
+    height: 100%;
+}
+.top-div{
+    height: 240px;
+    margin-bottom: 20px;
+    background-color: orange;
+}
+.bottom-div{
+    height: 240px;
+    background-color: orange;
+}
+
+/* FOOTER */
+footer{
+    background-color: gold;
+    height: 100px;
+}
