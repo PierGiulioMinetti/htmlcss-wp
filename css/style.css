@@ -10,7 +10,7 @@ body{
 }
 /* HEADER */
 header{
-  background-color: blue;
+
     height: 400px;
     margin-bottom: 20px;
 }
@@ -24,7 +24,13 @@ header .img-header{
 }
 header div img {
     width: 30%;
-
+}
+header div h2{
+    color:white;
+}
+.header-bar{
+    background-color: slategray;
+    height: 50px;
 }
 /* MAIN */
 main{
