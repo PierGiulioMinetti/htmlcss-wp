@@ -7,11 +7,10 @@
 body{
     padding: 30px;
 }
-
 /* HEADER */
 header{
     background-color: cornflowerblue;
-    height: 100px;
+    height: 400px;
     margin-bottom: 20px;
 }
 /* MAIN */
